@@ -5,7 +5,6 @@
 		<Option title="esplanade radioactive" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="rad\;" />
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/Debug/esplanade radioactive" prefix_auto="1" extension_auto="1" />
@@ -74,27 +73,18 @@
 			<Add directory="L:/programes/SFML-2.3.2/lib" />
 		</Linker>
 		<Unit filename="include/Application.h" />
-		<Unit filename="include/Atome.h">
-			<Option virtualFolder="rad/" />
-		</Unit>
 		<Unit filename="include/Config.h" />
 		<Unit filename="include/Ecran.h" />
-		<Unit filename="include/Esplanade.h">
-			<Option virtualFolder="rad/" />
-		</Unit>
 		<Unit filename="include/Gestion_ecrans.h" />
-		<Unit filename="include/Mode2Desintegration.h">
-			<Option virtualFolder="rad/" />
-		</Unit>
 		<Unit filename="include/ResourceMgr.h" />
 		<Unit filename="include/ResourceMgr.inl" />
-		<Unit filename="include/dalle.h">
-			<Option virtualFolder="rad/" />
-		</Unit>
 		<Unit filename="include/ecrans/EcranPrincipal.h" />
-		<Unit filename="include/materiau.h">
-			<Option virtualFolder="rad/" />
-		</Unit>
+		<Unit filename="include/radioactif/Atome.h" />
+		<Unit filename="include/radioactif/Esplanade.h" />
+		<Unit filename="include/radioactif/Isotope.h" />
+		<Unit filename="include/radioactif/Mode2Desintegration.h" />
+		<Unit filename="include/radioactif/dalle.h" />
+		<Unit filename="include/radioactif/materiau.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="media/img/nuage.jpg" />
 		<Unit filename="media/polices/arial.ttf" />
@@ -106,25 +96,16 @@
 		<Unit filename="media/polices/webdings.ttf" />
 		<Unit filename="media/polices/wingding.ttf" />
 		<Unit filename="src/Application.cpp" />
-		<Unit filename="src/Atome.cpp">
-			<Option virtualFolder="rad/" />
-		</Unit>
 		<Unit filename="src/Config.cpp" />
 		<Unit filename="src/Ecran.cpp" />
-		<Unit filename="src/Esplanade.cpp">
-			<Option virtualFolder="rad/" />
-		</Unit>
 		<Unit filename="src/Gestion_ecrans.cpp" />
-		<Unit filename="src/Mode2Desintegration.cpp">
-			<Option virtualFolder="rad/" />
-		</Unit>
-		<Unit filename="src/dalle.cpp">
-			<Option virtualFolder="rad/" />
-		</Unit>
 		<Unit filename="src/ecrans/EcranPrincipal.cpp" />
-		<Unit filename="src/materiau.cpp">
-			<Option virtualFolder="rad/" />
-		</Unit>
+		<Unit filename="src/radioactif/Atome.cpp" />
+		<Unit filename="src/radioactif/Esplanade.cpp" />
+		<Unit filename="src/radioactif/Isotope.cpp" />
+		<Unit filename="src/radioactif/Mode2Desintegration.cpp" />
+		<Unit filename="src/radioactif/dalle.cpp" />
+		<Unit filename="src/radioactif/materiau.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
